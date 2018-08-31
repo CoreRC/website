@@ -2,6 +2,8 @@
 title: First Cross-language Pub/Sub on Cap'n Proto
 ---
 
+[Update: you can follow the discussion on https://groups.google.com/forum/#!topic/capnproto/y2ePOd25pkE]
+
 After months of experimentation with tons of messaging concepts, I finally decided to use Cap'n Proto RPC for the CoreRC project. However, there is little information on the web for Cap'n Proto in general, and most of them are not up-to-date. So I hope this post can help you to get started on using Cap'n Proto for designing cross-language communication concepts and primitives.
 
 Most of the post is based on the `capnproto-rust` [demo](https://github.com/capnproto/capnproto-rust/tree/master/capnp-rpc/examples/pubsub) implementation of the `PubSub` scheme. Huge thanks to dwrensha for such a nice work ;)
